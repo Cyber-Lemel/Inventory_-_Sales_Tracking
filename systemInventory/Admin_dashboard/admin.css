@@ -1,0 +1,80 @@
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 8px;
+}
+.parent h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.title {
+    grid-column: span 3 / span 3;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    border: 1px solid black;
+}
+.title h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    grid-row: span 8 / span 8;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    border: 1px solid black;
+}
+
+.cat1 {
+    grid-row: span 6 / span 6;
+    grid-column-start: 2;
+    grid-row-start: 3;
+    border: 1px solid black;
+}
+
+.cat2 {
+    grid-row: span 6 / span 6;
+    grid-column-start: 3;
+    grid-row-start: 3;
+    border: 1px solid black;
+}
+
+.cat3 {
+    grid-row: span 6 / span 6;
+    grid-column-start: 4;
+    grid-row-start: 3;
+    border: 1px solid black;
+}
+
+.addProduct {
+    grid-row: span 2 / span 2;
+    grid-column-start: 5;
+    grid-row-start: 1;
+    border: 1px solid black;
+}
+
+#categoryTitle {
+    grid-column: span 3 / span 3;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+#categoryTitle h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.pending {
+    grid-row: span 6 / span 6;
+    grid-column-start: 5;
+    grid-row-start: 3;
+    border: 1px solid black;
+}
+      
+        
