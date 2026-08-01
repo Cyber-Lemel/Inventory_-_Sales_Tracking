@@ -4,7 +4,7 @@
     $pendingProducts = getPendingProducts($conn);
     require "../Sign-in/config.php"; // gives us $conn
 
-    // ginamit ko nlng din dito yung sa user na admin na ngayon, may mga pinaltan nlng ako
+    // ginamit ko nlng din dito yung sa user na admin na ngayon, may mga pinaltan nlng ako ok, remove nyo din to pag nag present kay sir
 ?>
 <!DOCTYPE html>
 <html lang="en">
